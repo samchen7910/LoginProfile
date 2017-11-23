@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class Register: UIViewController {
     
@@ -54,7 +55,8 @@ class Register: UIViewController {
         }
         
         guard let phone = Int(txtPhone.text!) else {
-            Commons.sharedInstance.showAlertOnViewController(self, message: "Phone is not correct", mainButton: "Accept", mainComplete: { (status) in
+            Commons.sharedInstance.showAlertOnViewController(self, message: "Phone is not correct",
+                mainButton: "Accept", mainComplete: { (status) in
                 Log.error("Press a button")
             })
             return
@@ -67,11 +69,12 @@ class Register: UIViewController {
         self.save(arrUser: arrUser)
         Log.debug("Save on UserDefault")
         Commons.sharedInstance.showAlertOnViewController(self, message: "The Register is sucessful",
-                                                         mainButton: "Accept",mainComplete:
-                                                        { (status) in
-                                                            Log.debug("Register sucess!!!")
-                                                            self.navigationController?.popViewController(animated: true)
-                                                        })
+            mainButton: "Accept",mainComplete:
+            { (status) in
+                Log.debug("Register sucess!!!")
+                Log.debug("\(arrUser.count)")
+                self.navigationController?.popViewController(animated: true)
+            })
         
     }
     

@@ -2,7 +2,7 @@ PODS:
   - Alamofire (4.5.1)
   - FAPanels (0.3.7)
   - IQKeyboardManagerSwift (5.0.6)
-  - Kingfisher (4.3.0)
+  - Kingfisher (4.3.1)
   - PKHUD (5.0.0)
   - SwifterSwift (4.1.0):
     - SwifterSwift/AppKit (= 4.1.0)
@@ -32,7 +32,7 @@ SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   FAPanels: 0c2ff92d4750e65b9e502b673b8116e4dbcc8704
   IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
-  Kingfisher: 475df87bb7196e51a8e9a48b667a5388a4709241
+  Kingfisher: 75541c4b62f02e1fde6f9772303de3d9ebe8f5b3
   PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
   SwifterSwift: 4d962b5d653760b85266832aff6ab6d08c1b7974
   SwiftyJSON: dc88934f85fb50b263b1632b9cbad3402505783e

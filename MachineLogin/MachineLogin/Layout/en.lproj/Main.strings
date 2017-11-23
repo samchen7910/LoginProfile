@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "11q-c7-ote"; */
+"11q-c7-ote.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "7Xd-zQ-lVz"; */
+"7Xd-zQ-lVz.text" = "Name";
+
+/* Class = "UILabel"; text = "New Password"; ObjectID = "AWr-JM-8Iy"; */
+"AWr-JM-8Iy.text" = "New Password";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "B7t-ol-HEF"; */
+"B7t-ol-HEF.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Re-password"; ObjectID = "C4P-Zb-BNn"; */
+"C4P-Zb-BNn.text" = "Re-password";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "F56-N5-duf"; */
+"F56-N5-duf.text" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FT3-41-XWr"; */
+"FT3-41-XWr.text" = "Label";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "Gv5-Eo-JjZ"; */
+"Gv5-Eo-JjZ.text" = "Phone";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "HA2-KU-4I4"; */
+"HA2-KU-4I4.text" = "Password";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "KO2-NW-fdg"; */
+"KO2-NW-fdg.text" = "Address";
+
+/* Class = "UILabel"; text = "PW"; ObjectID = "Ld6-nD-irl"; */
+"Ld6-nD-irl.text" = "PW";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "ON2-tk-DsU"; */
+"ON2-tk-DsU.normalTitle" = "Logout";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "OXE-m5-wb7"; */
+"OXE-m5-wb7.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Re New Password"; ObjectID = "Rlu-nC-nAq"; */
+"Rlu-nC-nAq.text" = "Re New Password";
+
+/* Class = "UIViewController"; title = "Register"; ObjectID = "V3N-6V-i0G"; */
+"V3N-6V-i0G.title" = "Register";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "VL2-z1-clV"; */
+"VL2-z1-clV.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Change PW"; ObjectID = "Zi7-TT-JbR"; */
+"Zi7-TT-JbR.normalTitle" = "Change PW";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "a1J-Ix-4v1"; */
+"a1J-Ix-4v1.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "b3C-hd-cQW"; */
+"b3C-hd-cQW.normalTitle" = "Cancel";
+
+/* Class = "UIViewController"; title = "User's profile"; ObjectID = "fAU-4i-wNj"; */
+"fAU-4i-wNj.title" = "User's profile";
+
+/* Class = "UILabel"; text = "Old password"; ObjectID = "jbi-pd-X2L"; */
+"jbi-pd-X2L.text" = "Old password";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "jmP-CO-8ef"; */
+"jmP-CO-8ef.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "miA-qm-kX7"; */
+"miA-qm-kX7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xBr-JH-57P"; */
+"xBr-JH-57P.text" = "Label";

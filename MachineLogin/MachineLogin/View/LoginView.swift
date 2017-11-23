@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class LoginView: UIViewController {
 
@@ -20,11 +21,36 @@ class LoginView: UIViewController {
         
     }
     
-    @IBAction func onClickRegister(_ sender: Any) {
+    @IBAction func onClickToLogin(_ sender: Any) {
+        
+        let userEmail = txtID.text
+        let userPW = txtPW.text
+        
+        let register = Register()
+        let arrayUser = register.load()
+        Log.debug("\(arrayUser.count)")
+       
+        for i in 0 ..< arrayUser.count
+        {
+            Log.debug("print something")
+            if (userEmail == arrayUser[i].email && userPW == arrayUser[i].password)
+            {
+                print("something")
+                USER_DEFAULT.set(true, forKey: "isLogined")
+                USER_DEFAULT.synchronize()
+              
+                let profileView = storyboard?.instantiateViewController(withIdentifier: "viewprofile") as! ProfileView
+                profileView.emailUser = (userEmail)!
+                self.navigationController?.pushViewController(profileView, animated: true)
+                return
+            }
+        }
+        
+        Commons.sharedInstance.showAlertOnViewController(self, message: "Email or Password is wrong", mainButton: "OK", mainComplete: { (status) in
+            Log.error("Press a button")
+        })
+        
     }
     
-    @IBOutlet weak var onClickLoggin: UIButton!
-    
-
 }
 
