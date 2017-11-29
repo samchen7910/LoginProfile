@@ -29,7 +29,9 @@ class LoginView: UIViewController {
         let register = Register()
         let arrayUser = register.load()
         Log.debug("\(arrayUser.count)")
-       
+        USER_DEFAULT.set(userEmail, forKey:"userEmail")
+        USER_DEFAULT.synchronize()
+        
         for i in 0 ..< arrayUser.count
         {
             Log.debug("print something")
@@ -39,7 +41,7 @@ class LoginView: UIViewController {
                 USER_DEFAULT.set(true, forKey: "isLogined")
                 USER_DEFAULT.synchronize()
               
-                let profileView = storyboard?.instantiateViewController(withIdentifier: "viewprofile") as! ProfileView
+                let profileView = storyboard?.instantiateViewController(withIdentifier: "viewProfile") as! ProfileView
                 profileView.emailUser = (userEmail)!
                 self.navigationController?.pushViewController(profileView, animated: true)
                 return

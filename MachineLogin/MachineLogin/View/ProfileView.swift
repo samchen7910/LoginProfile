@@ -51,6 +51,9 @@ class ProfileView : UIViewController {
 
     @IBAction func onClickCancelChangePW(_ sender: Any) {
         self.smallView.isHidden = true
+        txtOldPW.text = ""
+        txtNewPW.text = ""
+        txtReNewPW.text = ""
     }
     
     @IBAction func onClickAgreeChangePW(_ sender: Any) {

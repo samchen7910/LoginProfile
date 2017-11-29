@@ -11,10 +11,30 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Launch Screen-->
+        <scene sceneID="uTd-K8-CQY">
+            <objects>
+                <viewController id="Z4x-lP-sUC" customClass="LaunchScreen" customModule="MachineLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WbI-BO-U7R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZhY-qX-7fW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S5l-Ze-03H"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="" id="n0d-E9-tUP"/>
+                        <segue destination="fAU-4i-wNj" kind="show" identifier="" id="POW-TM-13T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntd-90-IYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="-352"/>
+        </scene>
         <!--Login View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginView" customModule="MachineLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewLogin" id="BYZ-38-t0r" customClass="LoginView" customModule="MachineLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560.79999999999995" y="44.527736131934034"/>
+            <point key="canvasLocation" x="961" y="-340"/>
         </scene>
         <!--Register-->
         <scene sceneID="54x-lh-H1q">
@@ -302,12 +322,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ic6-LO-fWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560.79999999999995" y="750.67466266866575"/>
+            <point key="canvasLocation" x="2073" y="-340"/>
         </scene>
         <!--User's profile-->
         <scene sceneID="6oR-qe-yui">
             <objects>
-                <viewController storyboardIdentifier="viewprofile" title="User's profile" id="fAU-4i-wNj" customClass="ProfileView" customModule="MachineLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewProfile" title="User's profile" id="fAU-4i-wNj" customClass="ProfileView" customModule="MachineLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ahP-RM-TJN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -513,7 +533,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhI-aG-zhe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1373.5999999999999" y="44.527736131934034"/>
+            <point key="canvasLocation" x="961" y="498"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="W4L-uv-n3y">
@@ -524,12 +544,15 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BTC-oD-hZ7"/>
+                        <segue destination="Z4x-lP-sUC" kind="relationship" relationship="rootViewController" id="axC-3j-yXx"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="neK-Dd-0dh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-263" y="46"/>
+            <point key="canvasLocation" x="-698" y="-340"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NVm-ZA-rwa"/>
+    </inferredMetricsTieBreakers>
 </document>
